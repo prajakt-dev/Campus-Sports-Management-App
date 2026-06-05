@@ -1,78 +1,164 @@
-The Campus Sports Live Score & Management System is a mobile application designed to digitize and streamline the management of intra-college and inter-department sports tournaments within a university or academic institution.
+# Campus Sports Live Score & Management System
 
-This platform provides a centralized system where students, spectators, and authorized college members can access live match updates, team statistics, and tournament rankings in real time.
+## Overview
 
-The application focuses on enhancing both sports administration and viewer engagement by combining live scoring with interactive features.
+Campus Sports Live Score & Management System is a mobile application designed to simplify and digitize sports tournament management within colleges and universities.
 
-🎯 Key Features
+The application provides a centralized platform where students, spectators, and authorized college members can view live scores, match schedules, team information, and tournament updates in real time.
 
-🏆 Live Score Tracking
-Real-time match score updates and results.
+This repository presents the UI/UX design prototype developed using Flutter.
 
-📊 Points Table & Rankings
-Automatic calculation of standings based on match outcomes.
+---
 
-👥 Team & Player Overview
-View team profiles, players, and match participation details.
+## Project Objectives
 
-📅 Match History
-Track previously played matches and performance statistics.
+* Digitize sports event management
+* Provide real-time match score updates
+* Improve transparency in tournament tracking
+* Increase student participation and engagement
+* Reduce manual record-keeping and scoring errors
+* Create a centralized platform for sports activities
 
-💬 Audience Interaction
-Spectators can:
+---
 
-Share comments
+## Key Features
 
-Upload match photos
+### Live Score Tracking
 
-Engage with ongoing events
+* Real-time match score updates
+* Ongoing match status monitoring
+* Instant result display
 
-🔐 Restricted Login System
-Access control for authorized college members and administrators.
+### Team Management
 
-📷 Image Upload & Media Sharing
-Match moments captured by viewers can be shared.
+* Team profiles
+* Team representative information
+* Team participation details
 
-🔳 QR Code Access
-Quick access to live scores and updates via QR scanning.
+### Match Management
 
-🚀 Objective
+* Upcoming match schedules
+* Match venue information
+* Match history records
 
-The goal of this project is to:
+### Points Table and Rankings
 
-✔ Modernize traditional sports event management
-✔ Improve transparency and accessibility of scores
-✔ Enhance student engagement
-✔ Reduce manual errors in tournament tracking
+* Automatic ranking calculation
+* Team standings
+* Tournament progress tracking
 
-🛠 Technology Stack (edit if needed)
+### Audience Interaction
 
-Frontend: Flutter (Dart)
+* Comment sharing
+* Match discussion
+* Community engagement
 
-Backend: Firebase
+### Media Sharing
 
-Database: Cloud Firestore
+* Match photo uploads
+* Event image sharing
 
-Authentication: Firebase Auth
+### Authentication
 
-Storage: Firebase Storage
+* Restricted access for authorized users
+* Secure login system
 
-📈 Project Scope
+### QR Code Access
 
-This repository currently contains the Phase 1 implementation, which includes:
+* Quick access to match information
+* Fast score viewing
 
-Live score viewing
+---
 
-Team & match information
+## Technology Stack
 
-Audience interaction features
+**Frontend:** Flutter
 
-Future phases may include:
+**Programming Language:** Dart
 
-Full admin panel
+**Backend:** Firebase
 
-Supervisor dashboards
+**Database:** Cloud Firestore
 
-Automated scheduling
+**Authentication:** Firebase Authentication
 
-Advanced analytics
+**Storage:** Firebase Storage
+
+---
+
+## Application Screens
+
+### Splash Screen
+
+<img src="Spash_Screen.png" width="250"/>
+
+Application startup screen displaying institutional branding.
+
+---
+
+### Home Screen
+
+<img src="Home_Screen.png" width="250"/>
+
+Displays live matches, current scores, and participating teams.
+
+---
+
+### Team Profile Screen
+
+<img src="Random_College_Sport_Profile.png" width="250"/>
+
+Shows team details, representative information, recent matches, and score statistics.
+
+---
+
+### Upcoming Match Screen
+
+<img src="Upcoming_Match_Screen.png" width="250"/>
+
+Displays upcoming matches along with date, time, and venue information.
+
+---
+
+### Community Interaction Screen
+
+<img src="Common_Chat_Screen.png" width="250"/>
+
+Allows users to share comments and event-related media.
+
+---
+
+## Current Scope
+
+The current prototype includes:
+
+* User interface design
+* Live score viewing screens
+* Team information screens
+* Match scheduling screens
+* Audience interaction screens
+
+---
+
+## Future Enhancements
+
+* Admin dashboard
+* Tournament management panel
+* Automated match scheduling
+* Push notifications
+* Advanced analytics and reports
+* Player performance tracking
+* QR-based event management
+
+---
+
+## Repository Status
+
+This repository contains the UI/UX design prototype of the Campus Sports Live Score & Management System.
+
+The source code, backend implementation, and production deployment are not included in this repository.
+
+---
+
+
+Developed as a project focused on improving sports event management and engagement within educational institutions.
